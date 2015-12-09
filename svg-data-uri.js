@@ -1,4 +1,11 @@
-(function (window) {
+/*
+ * SVG Data URI
+ * https://github.com/robsimpkins/svg-data-uri
+ *
+ * Copyright (c) 2015 robsimpkins
+ * Licensed under the MIT license.
+ */
+;(function (window) {
     'use strict';
 
     /**
