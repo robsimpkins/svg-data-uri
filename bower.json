@@ -1,0 +1,25 @@
+{
+  "name": "svg-data-uri",
+  "main": "svg-data-uri.min.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/robsimpkins/svg-data-uri",
+  "authors": [
+    "Rob <rob@robsimpkins.com>"
+  ],
+  "description": "A lightweight JavaScript plugin for extracting SVGs from background image data URIs and embedding them into the DOM.",
+  "keywords": [
+    "svg",
+    "data-uri",
+    "javascript",
+    "embed"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "base-64": "~0.1.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

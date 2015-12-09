@@ -1,0 +1,31 @@
+{
+  "name": "svg-data-uri",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript plugin for extracting SVGs from background image data URIs and embedding them into the DOM.",
+  "main": "svg-data-uri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robsimpkins/svg-data-uri.git"
+  },
+  "keywords": [
+    "svg",
+    "data-uri",
+    "javascript",
+    "embed"
+  ],
+  "author": "Rob Simpkins <rob@robsimpkins.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robsimpkins/svg-data-uri/issues"
+  },
+  "homepage": "https://github.com/robsimpkins/svg-data-uri",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1"
+  }
+}
