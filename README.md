@@ -10,7 +10,7 @@ $ npm install svg-data-uri
 ```
 
 ## Usage
-```
+```html
 <i class="icon icon-home svg-home" svg-data-uri></i>
 <script type="text/javascript" src="./svg-data-uri.js"></script>
 <script type="text/javascript">
@@ -32,7 +32,7 @@ The plugin will work with IE 9, but requires an external library for the decodin
 
 The tiny [base64](https://github.com/mathiasbynens/base64) library (1.5kb minified) has been included as a Bower dependency and provides a good fallback. Alternatively, you can specify your own.
 
-```
+```html
 <script type="text/javascript" src="./bower_components/base-64/base64.js"></script>
 <script type="text/javascript" src="./svg-data-uri.js"></script>
 <script type="text/javascript">
