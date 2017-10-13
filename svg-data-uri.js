@@ -79,7 +79,7 @@
     var extract = function (element) {
         // Get computed element styles
         var styles = window.getComputedStyle(element),
-            uri = styles['background-image'].replace(/url\("?([^"]*)"?\)/gi, '$1') || '',
+            uri = styles.getPropertyValue('background-image').replace(/url\("?([^"]*)"?\)/gi, '$1') || '',
             expression = /data:image\/svg\+xml;(.*),(.*)/g,
             matches = null;
 
