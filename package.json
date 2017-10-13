@@ -1,6 +1,6 @@
 {
   "name": "svg-data-uri",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight JavaScript plugin for extracting SVGs from background image data URIs and embedding them into the DOM.",
   "main": "svg-data-uri.js",
   "scripts": {
